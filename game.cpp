@@ -199,6 +199,15 @@ int main(){
       break;
     }
 
+    if(enemyPosition == bulletPosition){
+      gameScreen[enemyPosition] = ' ';
+      gameScreen[bulletPosition] = ' ';
+      gameScreen[enemyPosition] = '*';
+      explosionPosition = enemyPosition;
+      pEnemy->updatePosition(makeRandomNumber());
+      isHit = 1;
+      score++;
+    }
 
     // system("cls");
 

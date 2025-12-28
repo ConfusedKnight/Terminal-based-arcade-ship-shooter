@@ -1,0 +1,8 @@
+------------
+CONTROLS
+------------
+
+MOVE LEFT: A
+MOVE RIGHT: D 
+
+SHOOT: J
